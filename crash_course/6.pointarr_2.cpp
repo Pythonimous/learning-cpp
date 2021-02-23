@@ -23,23 +23,23 @@ int main() {
   balance = &harry_account_balance;
 
   cout << "Harry's Balance at start is: " << harry_account_balance;
-  cout <<endl;
+  cout << endl;
   double amount  = 1000.00; //setting the amount to be deposited
 
   deposit(balance, amount);
 
   cout << "Balance in harry account is: " << harry_account_balance;
-  cout<<endl;
+  cout << endl;
   amount = 500; //setting amount to 500
   withdraw(balance, amount);
 
   cout << "Balance after withdrawing cash is: " << harry_account_balance;
-  cout<<endl;
+  cout << endl;
   amount = 3000; //setting amount to 3000
   
-  cout << "Withdrawing "<<amount << " now" <<endl;
+  cout << "Withdrawing " << amount << " now" << endl;
 
   withdraw(balance, amount);
-  
+
   return 0;
 }
